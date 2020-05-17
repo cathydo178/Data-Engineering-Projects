@@ -39,5 +39,5 @@ This project includes six files:
 * `test.ipynb` displays the first few rows of each table to let I check my database.
 * `create_tables.py` drops and creates my tables. I will need to make sure to run this file to reset my table before each time I run my ETL scripts.
 * `etl.ipynb` reads and processes a single file from `song_data` and `log_data` and loads the data into my tables.
-*`sql_queries.py` contains all my sql queries, and is imported into the last three files above.
-*`README.md` provides discussion on my project.
+* `sql_queries.py` contains all my sql queries, and is imported into the last three files above.
+* `README.md` provides discussion on my project.
