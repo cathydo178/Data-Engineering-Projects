@@ -35,7 +35,7 @@ In order to successfully create the tables and run the ETL pipeline, the followi
 
 This project includes four files:
 
-- `create_tables.py` where I create my fact and dimension tables for the star schema in Redshift.
-- `etl.py` where I'll load data from S3 into staging tables on Redshift and then process that data into my analytics tables on Redshift.
-- `sql_queries.py` where I'll define my SQL statement, which will be imported into the two other files above.
-- `README.md` where I'll provide discussion on my process and decisions for this ETL pipeline.
+- `create_tables.py`: where I create my fact and dimension tables for the star schema in Redshift.
+- `etl.py`: where I'll load data from S3 into staging tables on Redshift and then process that data into my analytics tables on Redshift.
+- `sql_queries.py`: where I'll define my SQL statement, which will be imported into the two other files above.
+- `README.md`: where I'll provide discussion on my process and decisions for this ETL pipeline.
