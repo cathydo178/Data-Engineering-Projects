@@ -2,7 +2,7 @@
 
 A music streaming startup **Sparkify** has grown their user base and song database. They want to move their processes and data onto the cloud. Their data resides in S3, in a directory of JSON logs on user activity on the app, as well as a directory with JSON metadata on the songs in their app.
 
-As their data engineer, I am tasked with building an ETL pipeline that extracts their data from S3, stages them in Redshift, and transforms data into a set of dimennsional tables for their analytics team to continue finding insights in what songs their users are listening to.
+As their data engineer, I am tasked with building an ETL pipeline that extracts their data from S3, stages them in Redshift, and transforms data into a set of dimensional tables for their analytics team to continue finding insights in what songs their users are listening to.
 
 # PROJECT DESCRIPTION
 
@@ -10,7 +10,7 @@ In this project, I will build an ETL pipeline for a database hosted on Redshift.
 
 # DATABASE SCHEMA DESIGN AND ETL PIPELINE
 
-I decide to use star schema for this project because it's simple and straightfoward. This will help the analytic team get the most information and do their analysis in the most efficient way.
+I decide to use star schema for this project because it's simple and straightforward. This will help the analytic team get the most information and do their analysis in the most efficient way.
 
 In my star schema, there will be fact table and dimension table:
 
@@ -21,9 +21,9 @@ In order to boost the efficiency and the performance of my ETL operations, I cre
 
 # PYTHON SCRIPT
 
-In order to successfuly create the tables and run the ETL pipeline, the following steps have to be performed:
+In order to successfully create the tables and run the ETL pipeline, the following steps have to be performed:
 
-1. Running create_tables.py to conect to the databases and creates the fact and dimension tables.
+1. Run create_tables.py to connect to the databases and creates the fact and dimension tables.
 
 `python create_tables.py`
 
